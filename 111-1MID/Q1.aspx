@@ -10,6 +10,14 @@
 <body>
     <form id="form1" runat="server">
         <div>
+            <h1>線上掛號系統</h1>
+            <h2>|| 個人資訊</h2>
+            <asp:Panel ID="pl_Info" Width="500px" runat="server" BorderWidth="1px">
+                <h3><asp:Label ID="lb_Type" runat="server" Text="初診"></asp:Label><h3>
+                <asp:RadioButton ID="RadioButton1" runat="server" />
+                <asp:RadioButton ID="RadioButton2" runat="server" />
+            </asp:Panel>
+            
         </div>
     </form>
 </body>

@@ -13,7 +13,7 @@
             <h1>線上掛號系統</h1>
             <h2>|| 掛號資訊</h2>
             <asp:Panel ID="pl_Info" Width="500px" runat="server" BorderWidth="1px">
-                <h3><asp:Label ID="lb_Type" runat="server" Text="初診"></asp:Label><h3>
+                <h3><asp:Label ID="lb_Type" runat="server" Text="初診"></asp:Label></h3>
                 <asp:RadioButton ID="rb_Id" runat="server" GroupName="rb_Type" Checked="true" Text="身分證字號"/>
                 <asp:RadioButton ID="rb_Hid" runat="server" GroupName="rb_Type" Text="病例號"/><br />
                 <asp:TextBox ID="tb_Account" runat="server" Width="400px" Height="20px" ></asp:TextBox><br />

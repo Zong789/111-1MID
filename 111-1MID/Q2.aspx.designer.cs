@@ -60,12 +60,21 @@ namespace _111_1MID
         protected global::System.Web.UI.WebControls.DropDownList dpl_City;
 
         /// <summary>
-        /// DropDownList2 控制項。
+        /// dpl_Area 控制項。
         /// </summary>
         /// <remarks>
         /// 自動產生的欄位。
         /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList DropDownList2;
+        protected global::System.Web.UI.WebControls.DropDownList dpl_Area;
+
+        /// <summary>
+        /// btn_Submit 控制項。
+        /// </summary>
+        /// <remarks>
+        /// 自動產生的欄位。
+        /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btn_Submit;
     }
 }

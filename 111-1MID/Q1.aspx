@@ -16,13 +16,13 @@
                 <h3><asp:Label ID="lb_Type" runat="server" Text="初診"></asp:Label></h3>
                 <asp:RadioButton ID="rb_Id" runat="server" GroupName="rb_Type" Checked="true" Text="身分證字號"/>
                 <asp:RadioButton ID="rb_Hid" runat="server" GroupName="rb_Type" Text="病例號"/><br />
-                <asp:TextBox ID="tb_Account" runat="server" Width="400px" Height="20px" ></asp:TextBox><br />
+                <asp:TextBox ID="tb_Account" runat="server" Width="400px" Height="20px" AutoPostBack="True" OnTextChanged="tb_Account_TextChanged"></asp:TextBox><br />
                「連絡電話：(選填)」
                 <asp:TextBox ID="tb_Phone"   Width="300px"  Height="20px" runat="server" ></asp:TextBox>
-                <asp:Button ID="btn_Submot" Width="80px" Visible ="false"  runat="server" Text="Button" />
+                <asp:Button ID="btn_Submit" Width="80px" Visible="false" runat="server" Text="掛號" OnClick="btn_Submit_Click" />
             </asp:Panel><br />
             <asp:Panel ID="pl_Msg" runat="server" Width="500px" BorderWidth="1px" Visible="false">
-                <asp:Label ID="lb_Msg" runat="server" Text=""></asp:Label>
+                <asp:Label ID="lb_Msg" runat="server" Text=""></asp:Label><br />
                 <asp:LinkButton ID="LinkButton1" runat="server">重新填寫</asp:LinkButton>
             </asp:Panel>
         </div>

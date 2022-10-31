@@ -17,5 +17,10 @@ namespace _111_1MID {
         protected void Page_Load(object sender, EventArgs e) {
 
         }
+
+        protected void tb_Mun_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
